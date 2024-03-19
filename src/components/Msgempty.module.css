@@ -1,0 +1,9 @@
+.header{
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.header:hover{
+    font-weight: bolder;
+    font-size: 3.5rem;
+}

@@ -1,0 +1,33 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+h1:hover{
+color: hsla(0, 0%, 0%, 0.504);
+}
+h1{
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 10px;
+ padding: 10px;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ color: hsl(0, 0%, 0%);
+}
+input{
+  widows: 100%;
+}
+
+.items{
+  text-align: center;
+}
+.kg-row{
+  margin: 7px 3px;
+}
+.kgbutton{
+width: 80px;
+}
+.container{
+  margin-right: 20px;
+}
