@@ -1,6 +1,8 @@
+import { useContext } from "react";
 import styles from "./Todoitem.module.css"
-function Todoitem({work,date,handledeleteitem}) {
- 
+import { TodoitemsContext } from "../store/Todo-items";
+function Todoitem({work,date}) {
+ const {deleteNewItem}=useContext(TodoitemsContext)
   return (
     <div className={`  ${styles["left"]}container`}>
       <div className="row kg-row">
@@ -9,8 +11,8 @@ function Todoitem({work,date,handledeleteitem}) {
 
         <div className="col-2">
           <button type="button" className="btn btn-danger kgbutton"
-          onClick={() => handledeleteitem(work)}>
-            DELETE
+          onClick={() => deleteNewItem(work)}>
+            <i class="bi bi-trash"></i>
           </button>
         </div>
       </div>
